@@ -18,16 +18,16 @@
             $n3=$_POST['n3'];
             $averageGrade=($n1+$n2+$n3)/3;
             echo "Your average score is $averageGrade </br>";
-            if($averageGrade>80){
+            if($averageGrade>=80){
                 echo "Your result is: A";
             }
-            elseif($averageGrade>70){
+            elseif($averageGrade>=70){
                 echo "Your result is: B";
             }
-            elseif($averageGrade>60){
+            elseif($averageGrade>=60){
                 echo "Your result is: C";
             }
-            elseif($averageGrade>50){
+            elseif($averageGrade>=50){
                 echo "Your result is: D";
             }
             else {
